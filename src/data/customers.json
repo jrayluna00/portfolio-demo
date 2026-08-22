@@ -1,0 +1,56 @@
+[
+  {
+    "id": "acme-analytics",
+    "name": "Acme Analytics",
+    "stack": ["qwen", "chinese model", "chinese llm", "llm", "generative ai"],
+    "frameworks": ["commercial us", "fedramp"],
+    "watchTerms": [
+      "qwen",
+      "chinese model",
+      "chinese ai",
+      "foreign adversary",
+      "covered nation",
+      "prc",
+      "ban",
+      "prohibit",
+      "deepseek"
+    ],
+    "notes": "Uses Qwen, a Chinese model, to power their commercial US tool."
+  },
+  {
+    "id": "harbor-defense",
+    "name": "Harbor Defense",
+    "stack": ["cui", "dod", "defense industrial base"],
+    "frameworks": ["cmmc", "dfars", "nist 800-171", "il5", "il6"],
+    "watchTerms": [
+      "cmmc",
+      "dfars",
+      "800-171",
+      "cui",
+      "phase ii",
+      "c3pao",
+      "impact level",
+      "il6",
+      "il5"
+    ],
+    "notes": "Defense contractor pursuing CMMC and DoD IL work; handles CUI."
+  },
+  {
+    "id": "civic-cloud",
+    "name": "CivicCloud",
+    "stack": ["saas", "public cloud", "aws govcloud"],
+    "frameworks": ["fedramp", "fisma", "nist 800-53"],
+    "watchTerms": [
+      "fedramp",
+      "fisma",
+      "800-53",
+      "20x",
+      "rev5",
+      "rev 5",
+      "continuous monitoring",
+      "authorization",
+      "certification"
+    ],
+    "notes": "SaaS provider selling to civilian agencies; FedRAMP / FISMA path."
+  }
+]
