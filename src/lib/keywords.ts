@@ -94,8 +94,7 @@ export function isComplianceItem(item: {
   sourceId?: string;
 }): boolean {
   if (item.sourceId === "fedramp" || item.sourceId === "cmmc") return true;
-  return matchesAny(`${item.title} ${item.summary} ${item.sourceId ?? ""}`, COMPLIANCE_KEYWORDS)
-    .length > 0;
+  return matchesAny(`${item.title} ${item.summary}`, COMPLIANCE_KEYWORDS).length > 0;
 }
 
 export function severityFromText(text: string): "Critical" | "High" | "Watch" | null {
