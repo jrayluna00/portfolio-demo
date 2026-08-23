@@ -1,0 +1,769 @@
+{
+  "generatedAt": "2026-08-22T18:48:17.869Z",
+  "sources": [
+    {
+      "id": "fedramp",
+      "label": "FedRAMP",
+      "status": "ok",
+      "items": [
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/92",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Opened a new Request for Comment on Offerings By Government.",
+          "summary": "Opened a new Request for Comment on Offerings By Government.",
+          "url": "https://www.fedramp.gov/rfcs/0032",
+          "publishedAt": "2026-08-06T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/91",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Published a new blog post",
+          "summary": "Published a new blog post",
+          "url": "https://www.fedramp.gov/2026-07-30-fedramp-certification-paths-are-heating-up",
+          "publishedAt": "2026-07-30T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/90",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added Public Notice 16 for results of the Quarterly FedRAMP Security Inbox Test",
+          "summary": "Added Public Notice 16 for results of the Quarterly FedRAMP Security Inbox Test",
+          "url": "https://www.fedramp.gov/notices/0016",
+          "publishedAt": "2026-07-22T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/89",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Updated the FedRAMP Marketplace for CR26 changes: added a CSP lifecycle Phase field (Initial Implementation / Ongoing Certification), a new \"FedRAMP Certified (In Remediation)\" status, a clear Corrective Action Plan (CAP) indicator on product pages, and a Certification History event log on each product page. Reuse authorization metrics are no longer shown publicly.",
+          "summary": "Updated the FedRAMP Marketplace for CR26 changes: added a CSP lifecycle Phase field (Initial Implementation / Ongoing Certification), a new \"FedRAMP Certified (In Remediation)\" status, a clear Corrective Action Plan (CAP) indicator on product pages, and a Certification History event log on each product page. Reuse authorization metrics are no longer shown publicly.",
+          "url": "https://www.fedramp.gov/marketplace",
+          "publishedAt": "2026-07-17T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/88",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added July 2026 Community Updates recordings.",
+          "summary": "Added July 2026 Community Updates recordings.",
+          "url": "https://www.fedramp.gov/event/20x-cwg-2026-07-08/",
+          "publishedAt": "2026-07-15T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/87",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "New JSON Schema Validator that runs entirely in your browser.",
+          "summary": "New JSON Schema Validator that runs entirely in your browser.",
+          "url": "https://www.fedramp.gov/schemas/validator",
+          "publishedAt": "2026-07-15T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/86",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Updated Consolidated Rules for 2026 to clarify some FedRAMP rules and correct some issues in the FedRAMP JSON schemas",
+          "summary": "Updated Consolidated Rules for 2026 to clarify some FedRAMP rules and correct some issues in the FedRAMP JSON schemas",
+          "url": "https://www.fedramp.gov/2026/changelog/#2026071401-july-14-2026",
+          "publishedAt": "2026-07-14T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/85",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added Public Notice 15 for Quarterly FedRAMP Security Inbox Test.",
+          "summary": "Added Public Notice 15 for Quarterly FedRAMP Security Inbox Test.",
+          "url": "https://www.fedramp.gov/notices/0015/",
+          "publishedAt": "2026-07-07T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/84",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Updated Consolidated Rules for 2026 to version 2026.06.25.01 and added a mini-game.",
+          "summary": "Updated Consolidated Rules for 2026 to version 2026.06.25.01 and added a mini-game.",
+          "url": "https://www.fedramp.gov/2026/changelog/#2026062501-june-25-2026",
+          "publishedAt": "2026-06-25T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/83",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Published a new blog post and hopefully fixed a svelte router issue that was causing links to /2026, /legacy, and /join from within fedramp.gov to throw a 404",
+          "summary": "Published a new blog post and hopefully fixed a svelte router issue that was causing links to /2026, /legacy, and /join from within fedramp.gov to throw a 404",
+          "url": "https://www.fedramp.gov/2026-06-25-propelling-change-fedramp-launches-consolidated-rules-for-2026",
+          "publishedAt": "2026-06-25T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/82",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "FedRAMP Consolidated Ruleset for 2026 (CR26) is now released!",
+          "summary": "FedRAMP Consolidated Ruleset for 2026 (CR26) is now released!",
+          "url": "https://www.fedramp.gov/2026",
+          "publishedAt": "2026-06-24T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/81",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added Public Notices about the outcome of RFC-0026 through RFC-0030 and CISA Binding Operational Directive 26-04.",
+          "summary": "Added Public Notices about the outcome of RFC-0026 through RFC-0030 and CISA Binding Operational Directive 26-04.",
+          "url": "https://www.fedramp.gov/notices/0013",
+          "publishedAt": "2026-06-16T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/80",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added Public Notice NTC-0012 regarding the outcome of RFC-0031 Updated Incident Communications Procedures.",
+          "summary": "Added Public Notice NTC-0012 regarding the outcome of RFC-0031 Updated Incident Communications Procedures.",
+          "url": "https://www.fedramp.gov/notices/0012",
+          "publishedAt": "2026-06-03T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/79",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Published a new blog post",
+          "summary": "Published a new blog post",
+          "url": "https://www.fedramp.gov/2026-05-28-continuing-our-commitment-to-public-engagement",
+          "publishedAt": "2026-05-28T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/78",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added Public Notice NTC-0011 regarding the outcome of RFC-0025 Retrospective on the Public Comment Process.",
+          "summary": "Added Public Notice NTC-0011 regarding the outcome of RFC-0025 Retrospective on the Public Comment Process.",
+          "url": "https://www.fedramp.gov/notices/0011",
+          "publishedAt": "2026-05-27T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/77",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Moved the Consolidated Rules for 2026 Public Preview content to its dedicated preview site.",
+          "summary": "Moved the Consolidated Rules for 2026 Public Preview content to its dedicated preview site.",
+          "url": "https://preview.fedramp.gov/2026",
+          "publishedAt": "2026-05-18T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/76",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Published a new blog post",
+          "summary": "Published a new blog post",
+          "url": "https://www.fedramp.gov/2026-05-04-public-preview-consolidated-rules-2026",
+          "publishedAt": "2026-05-04T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/75",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Changed all designations from 'FedRAMP Authorization' to 'FedRAMP Certification', and all designations of impact levels to certification classes A, B, C, and D.",
+          "summary": "Changed all designations from 'FedRAMP Authorization' to 'FedRAMP Certification', and all designations of impact levels to certification classes A, B, C, and D.",
+          "url": "https://www.fedramp.gov/marketplace",
+          "publishedAt": "2026-05-04T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/74",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "The FedRAMP 20x section of this site has been updated to reflect our current progress in 20x Phase and update details of the FedRAMP 20x implementation plan and timeline.",
+          "summary": "The FedRAMP 20x section of this site has been updated to reflect our current progress in 20x Phase and update details of the FedRAMP 20x implementation plan and timeline.",
+          "url": "https://www.fedramp.gov/20x/",
+          "publishedAt": "2026-05-01T00:00:00.000Z"
+        },
+        {
+          "id": "fedramp:https://fedramp.gov/changelog/73",
+          "sourceId": "fedramp",
+          "sourceLabel": "FedRAMP",
+          "title": "Added NOTICE-0010 regarding FedRAMP Response to CISA V1: ED 25-03.",
+          "summary": "Added NOTICE-0010 regarding FedRAMP Response to CISA V1: ED 25-03.",
+          "url": "https://www.fedramp.gov/notices/0010",
+          "publishedAt": "2026-04-23T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn Feed",
+      "note": "RSS stand-in · Connect later",
+      "status": "ok",
+      "items": [
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90320",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "Postal Service moves to finalize mail ballot regs before SCOTUS ruling",
+          "summary": "The rules have already been rejected by multiple state courts, but the Trump administration said it’s preparing in case of a favorable Supreme Court decision. The post Postal Service moves to finalize mail ballot regs before SCOTUS ruling appeared first on CyberScoop .",
+          "url": "https://public-inspection.federalregister.gov/2026-17238.pdf",
+          "publishedAt": "2026-08-22T17:01:11.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90317",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "Apollo discloses data breach from ongoing wave of attacks hitting financial sector",
+          "summary": "The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .",
+          "url": "https://oag.ca.gov/system/files/L01%20Template_CA.pdf",
+          "publishedAt": "2026-08-21T19:14:28.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90312",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "Lawmakers seek watchdog review of federal hacking of Americans",
+          "summary": "Sen. Ron Wyden and Rep. Greg Casar want a GAO probe on the government’s use of spyware and other sophisticated hacking tools and authorities. The post Lawmakers seek watchdog review of federal hacking of Americans appeared first on CyberScoop .",
+          "url": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/08/wyden-led-law-enforcement-hacking-letter.pdf",
+          "publishedAt": "2026-08-21T15:05:33.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90303",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "Early 764 member sentenced to 77 years, longest prison term to date for a nihilistic violent extremist",
+          "summary": "Kyle Spitze led an offshoot of the violent extremist collective and victimized dozens of girls, coercing them to degrade themselves under threats of doxing and swatting. The post Early 764 member sentenced to 77 years, longest prison term to date for a nihilistic violent extremist appeared first on CyberScoop .",
+          "url": "https://cyberscoop.com/tag/764/",
+          "publishedAt": "2026-08-20T18:34:23.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90297",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "Retail theft bill spurs ‘very large and very dangerous’ surveillance fears",
+          "summary": "The Combating Organized Retail Crime Act has won a big House vote and could be on the fast track in the Senate — and supporters say it could help fight cybercrime. The post Retail theft bill spurs ‘very large and very dangerous’ surveillance fears appeared first on CyberScoop .",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/2853",
+          "publishedAt": "2026-08-20T15:27:24.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90287",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "The push to designate AI as the next critical infrastructure sector",
+          "summary": "The designation would unlock a range of federal services, tools and resources for an industry that policymakers view as increasingly tied to national and economic security. The post The push to designate AI as the next critical infrastructure sector appeared first on CyberScoop .",
+          "url": "https://cyberscoop.com/openai-chatgpt-hugging-face-cyberattack-data-poisoning/",
+          "publishedAt": "2026-08-20T13:31:17.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90281",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn",
+          "summary": "The agencies said the hackers are taking aim at Siemens S7 Series programmable logic controllers in what could be a first. The post AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn appeared first on CyberScoop .",
+          "url": "https://cyberscoop.com/trump-blames-minnesota-water-cyberattacks-iran/",
+          "publishedAt": "2026-08-19T18:45:53.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90278",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "A California county wants to hire Tina Peters to help run its elections",
+          "summary": "After her prison sentence for felony election-related crimes was commuted, Peters is poised to once again administer critical election duties. The post A California county wants to hire Tina Peters to help run its elections appeared first on CyberScoop .",
+          "url": "https://www.actionnewsnow.com/news/shasta-county-rov-to-hire-election-felon-tina-peters-next-month/article_a0009912-a748-4142-a4f5-761e8901c907.html",
+          "publishedAt": "2026-08-19T15:57:37.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90273",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "The long tail of Clop’s PTC hack is just beginning to emerge",
+          "summary": "The data theft extortion group likely compromised a critical vulnerability affecting PTC’s product lifecycle management software in June, a month before it sent threatening emails to victims. The post The long tail of Clop’s PTC hack is just beginning to emerge appeared first on CyberScoop .",
+          "url": "https://www.ptc.com/en/about/trust-center/advisory-center/active-advisories/windchill-flexplm-rce-vulnerability",
+          "publishedAt": "2026-08-19T14:30:52.000Z"
+        },
+        {
+          "id": "linkedin:https://cyberscoop.com/?p=90268",
+          "sourceId": "linkedin",
+          "sourceLabel": "LinkedIn Feed",
+          "title": "Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute",
+          "summary": "The superseding indictment adds defendants and allegations against the Iranian firm accused of a massive cybertheft campaign against foreign universities and others. The post Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute appeared first on CyberScoop .",
+          "url": "https://www.justice.gov/opa/pr/17-iranians-charged-conducting-massive-cyber-theft-campaign-behalf-islamic-revolutionary",
+          "publishedAt": "2026-08-18T20:12:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "label": "Discord",
+      "note": "RSS stand-in · Connect later",
+      "status": "ok",
+      "items": [
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6025449",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "National security requires securing modern AI workloads",
+          "summary": "Solutions of choice need to address runtime-relevant exposure, reduce CVE counts, and allow authorizing officials to distinguish noise from mission impact.",
+          "url": "https://federalnewsnetwork.com/?p=6025449",
+          "publishedAt": "2026-08-21T20:09:07.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6025338",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "CISA issues guidance for agencies to improve cybersecurity data logging",
+          "summary": "CISA said agencies will be able to achieve priority logging capabilities that support continuous event monitoring, threat hunting, incident response and more.",
+          "url": "https://federalnewsnetwork.com/?p=6025338",
+          "publishedAt": "2026-08-21T19:43:20.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6025354",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "A surprising source is helping uncover compromised government websites",
+          "summary": "\"Attackers are well aware of the demand for that and are going to use it to try to get eyeballs onto their sites,\" said Greg Pollock.",
+          "url": "https://federalnewsnetwork.com/?p=6025354",
+          "publishedAt": "2026-08-21T18:22:04.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6024761",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "NRO looks to illuminate supply chain risks",
+          "summary": "The secretive satellite agency’s work with prime contractors to address supply chain issues could inform broader federal efforts to address supplier risks.",
+          "url": "https://federalnewsnetwork.com/?p=6024761",
+          "publishedAt": "2026-08-20T22:21:52.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6024650",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "Stop acting. Start owning.",
+          "summary": "Bill James, a former deputy assistant secretary for DevOps at the VA, calls on agency leadership to appoint a permanent CISO and address cyber risks.",
+          "url": "https://federalnewsnetwork.com/?p=6024650",
+          "publishedAt": "2026-08-20T20:32:21.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6024580",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "What happens when AI shrinks the window cyber defenders have to react?",
+          "summary": "\"knowing that that these things are happening within minutes... and at a larger, greater capacity, we don't really have a choice,\" said Glen Deskin.",
+          "url": "https://federalnewsnetwork.com/?p=6024580",
+          "publishedAt": "2026-08-20T19:45:29.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6023788",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "CMMC review: DoD’s inconsistent CUI marking continues to plague program",
+          "summary": "Most organizations agree a key problem for the CMMC program is the Defense Department's inability to properly identify and mark CUI.",
+          "url": "https://federalnewsnetwork.com/?p=6023788",
+          "publishedAt": "2026-08-19T23:05:39.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6022549",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "AI-assisted tool helped secure satellite communication system after 2022 Russian hacking",
+          "summary": "",
+          "url": "https://federalnewsnetwork.com/?p=6022549",
+          "publishedAt": "2026-08-19T22:01:02.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6022514",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "White House looks to revamp cyber supply chain security data calls",
+          "summary": "The federal CIO's office is reviewing governmentwide cyber supply chain security standards, as it looks to root risks related to foreign adversaries.",
+          "url": "https://federalnewsnetwork.com/?p=6022514",
+          "publishedAt": "2026-08-18T21:54:42.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6022512",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "Navy keeps Tanner as permanent chief information officer",
+          "summary": "Tanner will manage the Navy and Marine Corps’ information technology portfolio of more than $12 billion.",
+          "url": "https://federalnewsnetwork.com/?p=6022512",
+          "publishedAt": "2026-08-18T21:34:31.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6022485",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "Rules about funding and cybersecurity can shape the defense market as surely as contracts do",
+          "summary": "\"We are in a messy middle situation, where they don't have funding certainty, but they also don't have regulatory certainty,\" said Stephanie Kostro.",
+          "url": "https://federalnewsnetwork.com/?p=6022485",
+          "publishedAt": "2026-08-18T20:46:15.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6019609",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "Trump’s move to ‘unleash’ private sector hackers raises novel oversight, liability questions",
+          "summary": "The goal is to let private companies take on foreign cyber criminals, but the unprecedented approach raises plenty of questions about oversight and liability.",
+          "url": "https://federalnewsnetwork.com/?p=6019609",
+          "publishedAt": "2026-08-14T22:33:25.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6019371",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "Tokenized finance is forcing governments to coordinate rules for markets that are still being built",
+          "summary": "\"You can take one asset and you can tokenize it and can then trade it 24/7 or internationally,\" said John Kearney.",
+          "url": "https://federalnewsnetwork.com/?p=6019371",
+          "publishedAt": "2026-08-14T18:44:43.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6018619",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "BOD 26-04 isn’t a scoring upgrade. It’s an audit of whether you can actually fix things.",
+          "summary": "When automated threat actors weaponize vulnerabilities in hours, the ultimate bottleneck is not how fast we can scan, it's how fast we can coordinate a fix.",
+          "url": "https://federalnewsnetwork.com/?p=6018619",
+          "publishedAt": "2026-08-13T21:48:48.000Z"
+        },
+        {
+          "id": "discord:https://federalnewsnetwork.com/?p=6018507",
+          "sourceId": "discord",
+          "sourceLabel": "Discord",
+          "title": "DISA starting small in proving out Mission Partner Environment capabilities",
+          "summary": "Nic Creswell, the portfolio acquisition executive for the Mission Partner Environment at DISA, said the goal is to test and expand capabilities at INDOPACOM.",
+          "url": "https://federalnewsnetwork.com/?p=6018507",
+          "publishedAt": "2026-08-13T20:50:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fedramp-news",
+      "label": "News crawler for FedRAMP",
+      "status": "ok",
+      "items": [
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91205",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "House Democrats urge DHS’s Mullin to scrap ICE plans for shock gloves",
+          "summary": "The Department of Homeland Security component intends to spend up to $20 million on the “conductive distraction and de-escalation” devices made by Compliant Technologies. The post House Democrats urge DHS’s Mullin to scrap ICE plans for shock gloves appeared first on FedScoop .",
+          "url": "https://democrats-homeland.house.gov/imo/media/doc/2026-08-20_letter_re_glove_device.pdf",
+          "publishedAt": "2026-08-21T17:53:28.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91202",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "IT hiring at GAO lags watchdog’s own timeframes, OIG finds",
+          "summary": "The fiscal 2024 audit shows the GAO slightly off pace from its own targets and further behind OPM’s time-to-hire goals for IT management roles. The post IT hiring at GAO lags watchdog’s own timeframes, OIG finds appeared first on FedScoop .",
+          "url": "https://www.oversight.gov/sites/default/files/documents/reports/2026-08/OIG-26-01.pdf",
+          "publishedAt": "2026-08-21T15:31:14.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91072",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "Revised GSA AI clause hasn’t fully calmed industry concerns, comments show",
+          "summary": "Palantir, Microsoft, Nvidia and other tech giants have major issues with the potential exclusion of open-source AI, “unbiased AI principles” and more. The post Revised GSA AI clause hasn’t fully calmed industry concerns, comments show appeared first on FedScoop .",
+          "url": "https://fedscoop.com/gsa-extends-comments-on-sweeping-ai-clause-after-industry-pushback/",
+          "publishedAt": "2026-08-20T13:00:00.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91189",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "‘Ruthless prioritization’ needed in face of AI threats, says White House official",
+          "summary": "The administration is still figuring out its approach to autonomous agents, cyber supply chain official Cheri Benedict told national security community professionals this week. The post ‘Ruthless prioritization’ needed in face of AI threats, says White House official appeared first on FedScoop .",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+          "publishedAt": "2026-08-19T21:43:45.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91183",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "DHS tries to lessen constraints of biometric identity verification",
+          "summary": "Members of TSA and the agency's Science and Technology Directorate created a pair of systems to address shortfalls and improve the utility of related tools. The post DHS tries to lessen constraints of biometric identity verification appeared first on FedScoop .",
+          "url": "https://www.dhs.gov/science-and-technology/publication/biometric-data-collection-and-verification-system",
+          "publishedAt": "2026-08-19T21:00:54.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91181",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "IRS systems were accessible to thousands of staffers on leave, watchdog finds",
+          "summary": "An inspector general report said IRS employees who took deferred resignation offers didn’t have a \"legitimate business reason” to still have access to sensitive agency networks. The post IRS systems were accessible to thousands of staffers on leave, watchdog finds appeared first on FedScoop .",
+          "url": "https://fedscoop.com/trump-federal-workforce-buyouts-legal-or-not/",
+          "publishedAt": "2026-08-19T20:34:41.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91170",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "VA-Oracle EHRM contract ceiling raises to nearly $27 billion",
+          "summary": "Due to “unanticipated complexities,” the department proposed a modification to the $10 billion contract to complete deployment of the electronic health record modernization. The post VA-Oracle EHRM contract ceiling raises to nearly $27 billion appeared first on FedScoop .",
+          "url": "https://fedscoop.com/va-oracle-ehrm-contract-funds-running-out/",
+          "publishedAt": "2026-08-19T18:52:44.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91168",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "SSA seeks direction for new enterprise AI strategy",
+          "summary": "The agency released an enterprise AI strategy in September 2025. The new RFI calls for intel on agentic capabilities and how SSA can “accelerate” an agency-wide approach to the tech. The post SSA seeks direction for new enterprise AI strategy appeared first on FedScoop .",
+          "url": "https://sam.gov/workspace/contract/opp/fa0630b52e8643468f1c7d0cba7ba961/view",
+          "publishedAt": "2026-08-18T20:17:04.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91162",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "NSF offers $1.5 billion in foundational research funding",
+          "summary": "The new opportunities include research areas such as engineering and mathematical and physical sciences. The post NSF offers $1.5 billion in foundational research funding appeared first on FedScoop .",
+          "url": "https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific",
+          "publishedAt": "2026-08-18T16:12:13.000Z"
+        },
+        {
+          "id": "fedramp-news:https://fedscoop.com/?p=91158",
+          "sourceId": "fedramp-news",
+          "sourceLabel": "News crawler for FedRAMP",
+          "title": "FBI plans to expand its AI infrastructure",
+          "summary": "The bureau is looking to add a host of new hardware as part of a multiple-award IDIQ contract with a collective ceiling of $88 million. The post FBI plans to expand its AI infrastructure appeared first on FedScoop .",
+          "url": "https://sam.gov/workspace/contract/opp/109ec3a6d9834b34a8fb06da826f13f1/view",
+          "publishedAt": "2026-08-18T15:25:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other source",
+      "status": "ok",
+      "items": [
+        {
+          "id": "other:/node/25336",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA Releases Foundational, Flexible Guidance to Help Federal Agencies Implement Effective Logging, Visibility and Operational Standards",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-releases-foundational-flexible-guidance-help-federal-agencies-implement-effective-logging",
+          "publishedAt": "2026-08-20T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25288",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA Unveils New Cybersecurity Resources for K-12 Schools and Districts",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-unveils-new-cybersecurity-resources-k-12-schools-and-districts",
+          "publishedAt": "2026-08-12T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25274",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA, FBI and Partners Warn Organizations of Gunra Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical",
+          "publishedAt": "2026-08-10T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25250",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA Guide Helps Federal Agencies Securely and Effectively Use Open Source Software",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-guide-helps-federal-agencies-securely-and-effectively-use-open-source-software",
+          "publishedAt": "2026-07-30T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25236",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA and Partners Unveil Updated Software Bill of Materials Resource That Improves Transparency, Security and Risk-Informed Decision Making",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-and-partners-unveil-updated-software-bill-materials-resource-improves-transparency-security-and",
+          "publishedAt": "2026-07-29T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25227",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA Joins Australia and Others to Publish Guidance to Isolate Operational Technology and Enabling Systems in Critical Infrastructure",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-joins-australia-and-others-publish-guidance-isolate-operational-technology-and-enabling-systems",
+          "publishedAt": "2026-07-28T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25212",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-partners-warn-zimbra-collaboration-suite-users-ongoing-russian-state-supported",
+          "publishedAt": "2026-07-23T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25210",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA, FBI, EPA and U.S. Government Partners Update Warning of Iran-Affiliated Threat Actors Targeting Critical Infrastructure Programmable Logic Controllers",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-fbi-epa-and-us-government-partners-update-warning-iran-affiliated-threat-actors-targeting",
+          "publishedAt": "2026-07-22T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25168",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA and Partners Publish Guidance to Help Software Manufacturers and Online Service Providers Work With Security Researchers",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-and-partners-publish-guidance-help-software-manufacturers-and-online-service-providers-work",
+          "publishedAt": "2026-07-15T12:00:00.000Z"
+        },
+        {
+          "id": "other:/node/25150",
+          "sourceId": "other",
+          "sourceLabel": "Other source",
+          "title": "CISA Joins NSA, FBI, DC3 and International Partners Warning of Russian Cyber Threat Activity Targeting Communications, Energy, Government and Other Critical Infrastructure Sectors",
+          "summary": "",
+          "url": "https://www.cisa.gov/news-events/news/cisa-joins-nsa-fbi-dc3-and-international-partners-warning-russian-cyber-threat-activity-targeting",
+          "publishedAt": "2026-07-14T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cmmc",
+      "label": "CMMC Plug",
+      "status": "ok",
+      "items": [
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=6023788",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "CMMC review: DoD’s inconsistent CUI marking continues to plague program",
+          "summary": "Most organizations agree a key problem for the CMMC program is the Defense Department's inability to properly identify and mark CUI.",
+          "url": "https://federalnewsnetwork.com/?p=6023788",
+          "publishedAt": "2026-08-19T23:05:39.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=6000387",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "The case for an America-first software supply chain",
+          "summary": "Amanda Phelps, a strategic advisor of allied defense and intelligence at Coder, explains why software sovereignty is important to protect against cyber attacks.",
+          "url": "https://federalnewsnetwork.com/?p=6000387",
+          "publishedAt": "2026-07-23T20:13:51.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5992753",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "The real story isn’t the suspension — it’s the question the department asked next",
+          "summary": "New RFI signals a shift from compliance management to cybersecurity outcomes.",
+          "url": "https://federalnewsnetwork.com/?p=5992753",
+          "publishedAt": "2026-07-15T19:13:52.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5931948",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Risk & Compliance Exchange 2026: DIBCAC’s Nick DelRosso on evolving role of CMMC assessments",
+          "summary": "The role of the Defense Industrial Base Cybersecurity Assessment Center, or DIBCAC, is changing as the CMMC requirements ramp up.",
+          "url": "https://federalnewsnetwork.com/?p=5931948",
+          "publishedAt": "2026-05-20T19:34:47.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5925180",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Risk & Compliance Exchange 2026: N-able’s Ashish Luitel on addressing the CMMC ‘evidence gap’",
+          "summary": "Lessons from CMMC assessments show organizations don’t lack cyber controls, but rather the ability to prove out standard processes, N-able cyber expert shares.",
+          "url": "https://federalnewsnetwork.com/?p=5925180",
+          "publishedAt": "2026-05-20T15:09:17.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5936480",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Five ways contractors can turn a growing compliance burden into a competitive advantage with AI",
+          "summary": "What was once a back-office function is now directly impacting how firms win work, deliver programs and withstand audit scrutiny.",
+          "url": "https://federalnewsnetwork.com/?p=5936480",
+          "publishedAt": "2026-05-19T21:09:02.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5910963",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Rev. 3 is coming – Start preparing for the next CMMC requirement",
+          "summary": "The entire DIB must remember that CMMC compliance is a continual journey that is necessary to protect our warfighters and our nation.",
+          "url": "https://federalnewsnetwork.com/?p=5910963",
+          "publishedAt": "2026-04-24T20:43:16.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5901147",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "The myth of the CMMC ‘easy button:’ Why shortcuts usually collapse under scrutiny from a third-party assessor",
+          "summary": "When CMMC preparation is approached as a quick project instead of an overarching operational commitment, weaknesses tend to surface at the most crucial moment.",
+          "url": "https://federalnewsnetwork.com/?p=5901147",
+          "publishedAt": "2026-04-15T20:35:05.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5888147",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "DoD still failing to properly mark CUI data years after initial audit",
+          "summary": "“The Hill should be all over this issue but not sure anyone is paying any attention to this over there,” Bill Greenwalt said.",
+          "url": "https://federalnewsnetwork.com/?p=5888147",
+          "publishedAt": "2026-04-02T22:25:13.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?post_type=cme-event&#038;p=5871638",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Federal News Network’s Risk & Compliance Exchange 2026",
+          "summary": "Join Federal News Network’s journalists as they engage government and industry experts on how to navigate evolving cybersecurity mandates and accelerate secure adoption of emerging technologies.",
+          "url": "https://federalnewsnetwork.com/?post_type=cme-event&#038;p=5871638",
+          "publishedAt": "2026-03-19T15:33:38.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5869347",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Why assessment integrity is the hidden mission enabler for CMMC 2.0",
+          "summary": "Without consistent, high-quality assessments, CMMC risks devolving into a procedural requirement rather than serving as a meaningful risk signal.",
+          "url": "https://federalnewsnetwork.com/?p=5869347",
+          "publishedAt": "2026-03-17T20:48:25.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5852559",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "These 2 recent cases confirm DOJ is escalating cyber enforcement",
+          "summary": "\"The trend here is focused on misrepresentations and material noncompliance with cybersecurity obligations,\" rather than data breaches, Lance Taubin said.",
+          "url": "https://federalnewsnetwork.com/?p=5852559",
+          "publishedAt": "2026-03-04T20:47:27.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5772024",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "CMMC DFARS clause explained: The KO’s checklist contractors never see",
+          "summary": "DFARS isn’t inventing anything new; it’s carrying out CMMC program policy and telling KOs how to enforce it.",
+          "url": "https://federalnewsnetwork.com/?p=5772024",
+          "publishedAt": "2026-01-07T22:07:00.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5765138",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "AI may not be the federal buzzword for 2026",
+          "summary": "Federal News Network asked federal acquisition and IT experts what initiatives they are paying close attention to in the new year.",
+          "url": "https://federalnewsnetwork.com/?p=5765138",
+          "publishedAt": "2026-01-02T18:35:50.000Z"
+        },
+        {
+          "id": "cmmc:https://federalnewsnetwork.com/?p=5746913",
+          "sourceId": "cmmc",
+          "sourceLabel": "CMMC Plug",
+          "title": "Locking down the digital shop floor: Why defense manufacturers need to rethink data security",
+          "summary": "For manufacturers, this shift isn’t about adding red tape. It’s about ensuring your shop can keep serving high-value, high-risk customers without interruption.",
+          "url": "https://federalnewsnetwork.com/?p=5746913",
+          "publishedAt": "2025-12-16T20:19:40.000Z"
+        }
+      ]
+    }
+  ]
+}
