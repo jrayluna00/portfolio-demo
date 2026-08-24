@@ -80,6 +80,31 @@ h3,
   font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
+  display: inline-block;
+}
+
+.desk-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.desk-switch a {
+  color: #d7e2ef;
+  text-decoration: none;
+  padding: 0.22rem 0.75rem;
+  border: 1px solid rgba(244, 239, 230, 0.28);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.desk-switch a.is-active {
+  background: #f4efe6;
+  color: var(--navy);
+  border-color: #f4efe6;
 }
 
 .topics {
@@ -362,4 +387,180 @@ code {
   .brand__title {
     font-size: 1.65rem;
   }
+}
+
+.shell--desk {
+  grid-template-columns: 1fr;
+}
+
+.desk {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.3rem 1.5rem;
+}
+
+.desk__kicker {
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  color: var(--red);
+  font-weight: 700;
+}
+
+.desk__lede,
+.desk__meta,
+.briefing__disclaimer,
+.briefing__currency,
+.control-card__meta {
+  color: var(--muted);
+}
+
+.desk__lede {
+  margin: 0 0 1.1rem;
+  max-width: 46rem;
+}
+
+.desk__label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.desk__input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.75rem 0.85rem;
+  font: inherit;
+  background: #fff;
+  color: var(--ink);
+  resize: vertical;
+}
+
+.desk__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.desk__ask {
+  background: var(--navy);
+  color: #f4efe6;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.55rem 1.1rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.desk__ask:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.desk__samples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1rem 0 1.15rem;
+}
+
+.desk__chip {
+  background: #efe8dc;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font: inherit;
+  font-size: 0.82rem;
+  color: var(--navy-mid);
+  cursor: pointer;
+  text-align: left;
+}
+
+.briefing {
+  border-top: 1px dashed var(--line);
+  padding-top: 1.1rem;
+}
+
+.briefing h3 {
+  margin: 0.35rem 0 0.85rem;
+  font-size: 1.45rem;
+}
+
+.briefing h4 {
+  margin: 1.2rem 0 0.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.briefing__analysis p,
+.control-card p,
+.quote blockquote p {
+  margin: 0 0 0.75rem;
+}
+
+.briefing__currency {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.control-card,
+.quote {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  margin: 0 0 0.75rem;
+  background: #fffaf3;
+}
+
+.control-card__id,
+.quote__id {
+  margin: 0 0 0.25rem;
+  color: var(--red);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.control-card h5 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.control-card ul,
+.cite-list,
+.quote-list {
+  margin: 0.35rem 0 0.6rem;
+  padding-left: 1.1rem;
+}
+
+.quote-list,
+.cite-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.quote blockquote {
+  margin: 0 0 0.45rem;
+}
+
+.cite-list li {
+  margin: 0 0 0.45rem;
+}
+
+.briefing__disclaimer {
+  margin: 1.2rem 0 0;
+  font-size: 0.82rem;
 }

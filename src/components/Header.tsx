@@ -1,8 +1,11 @@
+type Desk = "news" | "guidance";
+
 type HeaderProps = {
   generatedAt?: string;
+  desk: Desk;
 };
 
-export function Header({ generatedAt }: HeaderProps) {
+export function Header({ generatedAt, desk }: HeaderProps) {
   return (
     <header className="site-header">
       <div className="site-header__inner">
@@ -11,6 +14,14 @@ export function Header({ generatedAt }: HeaderProps) {
           <a className="brand__title" href="#top">
             Compliance Brief
           </a>
+          <nav className="desk-switch" aria-label="Desks">
+            <a href="#top" className={desk === "news" ? "is-active" : undefined}>
+              News
+            </a>
+            <a href="#guidance" className={desk === "guidance" ? "is-active" : undefined}>
+              Guidance desk
+            </a>
+          </nav>
         </div>
         <nav className="topics" aria-label="Coverage">
           <span>FedRAMP</span>
