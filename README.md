@@ -40,3 +40,14 @@ Customer profiles live in `src/data/customers.json`. Edit that file to add real 
 Ask questions such as whether a 20x package still needs a SAP, what a legacy agency-sponsored SAR must contain, or how AC-2 is assessed. The desk retrieves those sources, adds SAP-to-SAR analysis, and prints citations.
 
 GitHub Actions refresh feeds every two hours and deploy the static build to GitHub Pages from `main`.
+
+### GitHub Pages
+
+Deploy uses `actions/deploy-pages`. That API 404s until Pages is actually turned on, and **GitHub Free cannot serve Pages from a private repository**.
+
+1. Make this repo **public** (or use GitHub Pro).
+2. Open [Settings → Pages](https://github.com/jrayluna00/portfolio-demo/settings/pages).
+3. Under **Build and deployment → Source**, choose **GitHub Actions**.
+4. Re-run **Ingest and deploy** on `main` (Actions → workflow → Run workflow), or wait for the next push/schedule.
+
+The site URL will be `https://jrayluna00.github.io/portfolio-demo/`.

@@ -29,13 +29,38 @@ jobs:
       - run: npm ci
       - run: npm run ingest
       - run: npm run build
+      - uses: actions/configure-pages@v5
+        if: >-
+          github.event_name != 'pull_request' &&
+          github.ref == 'refs/heads/main' &&
+          github.event.repository.visibility == 'public'
       - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: >-
+          github.event_name != 'pull_request' &&
+          github.ref == 'refs/heads/main' &&
+          github.event.repository.visibility == 'public'
         with:
           path: dist
 
+  skip-pages:
+    if: >-
+      github.event_name != 'pull_request' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.repository.visibility != 'public'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain why Pages deploy is skipped
+        run: |
+          echo "::notice::Skipping GitHub Pages deploy because this repository is private."
+          echo "GitHub Free cannot serve Pages from a private repo, so actions/deploy-pages 404s."
+          echo "Make the repository public, then Settings → Pages → Source: GitHub Actions."
+          echo "https://github.com/${{ github.repository }}/settings/pages"
+
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: >-
+      github.event_name != 'pull_request' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.repository.visibility == 'public'
     needs: build
     runs-on: ubuntu-latest
     environment:
